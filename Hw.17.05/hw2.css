@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.main {
+    width: 100%;
+    background-image:
+    linear-gradient(to right, rgb(231 47 47 / 52%), rgb(31 40 151 / 73%)),
+    url(https://mixkit.imgix.net/videos/preview/mixkit-a-software-developer-working-and-drinking-coffee-1749-0.jpg?q=80&auto=format%2Ccompress);
+    background-position: center;
+    background-size: cover;
+    
+}
+.navclr {
+    color: white;
+}
+.navbtn {
+    background-color: rgb(26, 110, 206);
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    position: relative;
+    left: 40px;
+}
+.btnone {
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.btntwo {
+    color: white;
+    border: none;
+    border-radius: 30px;
+    background-color:rgb(26, 110, 206) ;
+}
+.formdiv {
+    background-color: white;
+    border-radius: 5px;
+}
+@media (max-width:800px) {
+    .col {
+        width: 100%;
+    }
+    .flex-wrap {
+        display:block !important;
+    }
+    .btntwo {
+        margin-left:0 !important;
+    }
+}

@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.main {
+    width: 100%;
+    background-image: url(https://robertbrancatelli.blog/wp-content/uploads/2019/04/palm-sunday-nature-palm-sky-52548.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.found {
+    font-size: 20px;
+    display:block;
+    font-family:'Courier New', Courier, monospace;
+}
+.hcircle {
+    border: 3px solid white;
+    border-radius: 30px;
+    padding: 7px 30px;
+}
+.bdy {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+}
+.bdy h1 {
+    font-size: 60px;
+}
